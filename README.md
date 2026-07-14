@@ -1,4 +1,7 @@
 ﻿# DadaVaultEconomy 1.0  > Economia DadaSMP collegata direttamente a Vault.  ![Minecraft](https://img.shields.io/badge/Minecraft-1.20%2B-green?style=for-the-badge) ![Paper](https://img.shields.io/badge/Paper%20%2F%20Spigot-Compatible-blue?style=for-the-badge)  ## Overview  **DadaVaultEconomy 1.0** is a custom Minecraft plugin for Paper/Spigot servers.  Economia DadaSMP collegata direttamente a Vault.  ## Commands 
+
+<p align="center"><img src="assets/dadasmp-logo.png" alt="DadaSMP" width="180"></p>
+
 - `/eco`
 - `/economy`
 - `/balance`
