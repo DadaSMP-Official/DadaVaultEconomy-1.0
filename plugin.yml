@@ -1,0 +1,30 @@
+name: DadaVaultEconomy
+version: 1.0.0
+main: it.dadasmp.vaulteconomy.DadaVaultEconomy
+api-version: "1.20"
+author: DadaSMP
+depend: [Vault]
+loadbefore: [BetterEconomy]
+description: Economia DadaSMP collegata direttamente a Vault.
+commands:
+  eco:
+    description: Gestione soldi Vault
+    usage: /eco <give|take|set|reset|balance> <player> [amount]
+    permission: dadavaulteconomy.eco
+  economy:
+    description: Alias di /eco
+    usage: /economy <give|take|set|reset|balance> <player> [amount]
+    permission: dadavaulteconomy.eco
+  balance:
+    description: Mostra il saldo
+    usage: /balance [player]
+    aliases: [bal, money]
+  baltop:
+    description: Classifica soldi
+    usage: /baltop
+    aliases: [balancetop]
+permissions:
+  dadavaulteconomy.eco:
+    default: op
+  dadavaulteconomy.balance.others:
+    default: op
